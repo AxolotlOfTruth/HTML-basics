@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="author" content="Gabriel Vérité">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A website made to learn HTML.">
+        <title>Gabriel's HTML learning website!</title>
+    </head>
+    
+    <body style="background-color:rgb(243, 241, 220);">
+        <header>
+            <br/>
+            <h2>Gabriel's HTML learning website </h2>
+            <br/>
+            <hr/>
+        </header>
+       
+        <main>
+            <!--
+            <h2>Comments can be made like this</h2>
+            -->    
+            
+            
+            <h3>Basic Text Tags</h3>
+            <br/>
+            <p>This is a paragraph made in HTML</p>
+            <p>This paragraph has a word in <b>bold</b></p>
+            <p>This paragraph has a word in <i>italic</i></p>
+            <p><big>This paragraph has bigger text</big></p>
+            <p><small>This paragraph has smaller text</small></p>
+            <p>This paragraph has lower lined characters: H<sub>2</sub>O</p>
+            <p>This paragraph has upper lined characters: 10<sup>2</sup></p>
+            <br/>
+            <hr/>
+            <h3>Style and Colors</h3>
+            <br/>
+            <p style="color: blue;">This paragraph is using a style tag to become blue.</p>
+            <p style="color: blue; background-color: greenyellow;">This paragraph is using a style tag to have a colored background</p>
+            <br/>
+            <hr/>
+
+
+            <h3>Articles and sections</h3>
+            <p> Articles are container tags which can have sections inside them</p>
+            <br/>
+            <article>
+                <section>
+                    <h4>First Section</h4>
+                    <p>This is the first section of an article written in HTML</p>
+                </section>
+                <section>
+                    <h4>Second Section</h4>
+                    <p>This is the second section of an article written in HTML</p>
+                </section>
+                <section>
+                    <h4>Third Section</h4>
+                    <aside>This section has an "aside" tag</aside>
+                </section>
+            </article>
+            <br/>
+            <hr/>
+
+
+            <h3>Links</h3>
+            <br/>
+            <a href="https://www.google.com">Here's a link to google!</a>
+            <br/>
+            <a href="https://www.google.com" target="_blank">This is a link to google that <b>opens in a new tab</b></a>
+            <br/>
+            <a href="contact/contact.html">This link will take you to the "Contact me" page of the website</a>
+            <br/>
+            <hr/>
+            <h3>Images</h3>
+            <img src="images/ceobe.png" alt="Ceobe lying on couch"/>
+            <p>An image of ceobe lying on the couch</p>
+            <br/>
+            <hr/>
+
+
+            <h3>iFrames</h3>
+            <iframe src="https://en.wikipedia.org/wiki/HTML" width="500" height="400">Wikipedia HTML iFrame</iframe>
+            <br/>
+            <hr/>
+
+
+            <h3>Videos and Youtube iFrames</h3>
+            <br/>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>A youtube tutorial on HTML</p>
+            <br/>
+            <hr/>
+
+
+            <h3>Lists</h3>
+            <h4>A list of reptiles:</h4>
+            <ul>
+                <li>Aligator</li>
+                <li>Crocodile</li>
+                <li>Lizard</li>
+                <li>Snake</li>
+            </ul>
+            <h4>An ordered list of reptiles:</h4>
+            <ol type = "I">
+                <li>Aligator</li>
+                <li>Crocodile</li>
+                <li>Lizard</li>
+                <li>Snake</li>
+            </ol>
+            <h4>An ordered list with embeded lists:</h4>
+            <ol type = "1">
+                <li>Alligator</li>
+                    <ol type="A">
+                        <li>American Alligator</li>
+                        <li>Chinese Alligator</li>
+                    </ol>
+                <li>Crocodile</li>
+                    <ol type="A">
+                        <li>Saltwater Crocodile</li>
+                        <li>Nile Crocodile</li>
+                    </ol>
+                <li>Lizard</li>
+                    <ol type="A">
+                        <li>Bearded Dragon</li>
+                        <li>Glass Lizard</li>
+                    </ol>
+                <li>Snake</li>
+                    <ol type="A">
+                        <li>Corn Snake</li>
+                        <li>Black Mamba</li>
+                    </ol>
+            </ol>
+            <h4>A descriptive list:</h4>
+            <dl>
+                <dt>Alligators</dt>
+                <dd>Alligators have a long, rounded snout that has upward facing nostrils at the end; this allows breathing to occur while the rest of the body is underwater. The young have bright yellow stripes on the tail; adults have dark stripes on the tail. It's easy to distinguish an alligator from a crocodile by the teeth.</dd>
+                <dt>Snakes</dt>
+                <dd>Snakes are ectothermic, amniote vertebrates covered in overlapping scales. Many species of snakes have skulls with several more joints than their lizard ancestors, enabling them to swallow prey much larger than their heads with their highly mobile jaws.</dd>
+            </dl>
+            <br/>
+            <hr/>
+
+
+            <h3>Tables</h3>
+            <table>
+                <thead>
+                    <caption><h4>Table of Reptiles</h4></caption>
+                    <tr>
+                        <th>Aligators</th>
+                        <th>Crocodiles</th>
+                        <th>Lizards</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>American Alligator</td>
+                        <td>Saltwater Crocodile</td>
+                        <td>Bearded Dragon</td>
+                    </tr>
+                    <tr>
+                        <td>Chinese Alligator</td>
+                        <td>Nile Crocodile</td>
+                        <td>Glass Lizard</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br/>
+            <hr/>
+
+
+            <h3>Divs and Spans</h3>
+            <p>Divs take up whole blocks on the web page, while Spans take only the space they need.</p>
+            <span>Span1</span>
+            <span>Span2</span>
+            <div>Div1</div>
+            <div>Div2</div>
+            <br/>
+            <hr/>
+            <h3>Inputs</h3>
+            <p>Textbox</p>
+            <input type="text"/>
+            <p>Password</p>
+            <input type="password"/>
+            <p>Text area</p>
+            <textarea rows="10" cols="30">
+            </textarea>
+            <p>Date</p>
+            <input type="date">
+            <p>Button</p>
+            <input type="button" value="Click"/>
+            <br/>
+            <br/>
+            <a href="https://www.w3schools.com/html/html_form_input_types.asp" target ="_blank">Click here to see other input types</a>
+            <br/>
+            <hr/>
+            <br/>
+            <br/>
+            <br/>
+        </main>
+       
+        <footer>
+            <span>This website was made for academic purposes by Gabriel de Lara Vérité<img width="100" height="100" src="images/emperor.png" alt="Emperor Drinking"/></span>
+       </footer>
+    </body>
+</html>
